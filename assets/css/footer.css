@@ -1,0 +1,120 @@
+footer {
+    padding: 70px 0 0;
+    border-top: 2px solid #E5E5E5;
+    margin: 60px 0 26px;
+    overflow: hidden;
+}
+ 
+.footer_link ul li {
+    margin-bottom: 10px;
+}
+
+.footer_link ul li h4 {
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.footer_link ul li a {
+    color: #000;
+    text-transform: capitalize;
+}
+
+.footer_link ul li a i {
+    margin-right: 7px;
+}
+
+.footer_link ul li a img {
+    max-width: 200px;
+}
+.newsletter {
+    position: relative;
+}
+
+.newsletter input {
+    max-width: 369px;
+    border: none;
+    background: #ECECEC;
+    height: 50px;
+    padding-left: 20px;
+    border-radius: 30px;
+    width: 95%;
+    width: 260px;
+}
+
+.newsletter a {
+    position: absolute;
+    right: 0;
+    background: var(--thmColor);
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 12px 20px;
+    border-radius: 30px;
+    color: var(--whiteColor) !important;
+    text-transform: uppercase !important;
+    font-weight: 500;
+    box-shadow: inset 1px 0px 20px 0px rgb(0 0 0 / 15%);
+}
+
+.footer_btm {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    border-top: 1px solid #E5E5E5;
+    margin-top: 50px;
+    width: 100%;
+}
+.footer_link.nletters {
+  width: 280px;
+} 
+.social_link ul li {
+    display: inline-block;
+}
+
+.social_link ul li a {
+    width: 40px;
+    height: 40px;
+    background: #CBCBCB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--whiteColor);
+    border-radius: 50%;
+    margin: 0 3px;
+    font-size: 18px;
+    transition: .3s;
+}
+.social_link ul li a img {
+    width: 21px;
+}
+.social_link ul li a:hover{
+    background: var(--thmColor);
+}
+.copyright a {
+    text-transform: capitalize;
+}
+video#video {
+  width: 100%;
+  /* height: 100%; */
+  object-fit: cover;
+}
+.cont_hash .vote_react button.big2 {
+  font-size: 25px;
+  padding: 8px 20px;
+}
+li.flogos a img:last-child,
+body.dark li.flogos a img:first-child{
+    display: none;
+}
+body.dark li.flogos a img:last-child{
+    display: block;
+}
+
+/* dark mode css */
+.dark .social_link ul li a {
+    background: #272727;
+}
+
+.dark .newsletter input {
+    background: #0e0e0e;
+    color: #fff;
+}

@@ -1,0 +1,632 @@
+/* Big screen :1200px. */
+@media (min-width: 992px) {
+
+    .d_desk_none{
+        display: none !important;
+    }
+}
+
+/* Big screen :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+ 
+}
+
+
+/* Normal screen :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .header_nav nav ul li a {
+        padding: 4px 20px;
+    }
+    
+    .winer_prices a {
+        padding: 12px 29px;
+    }
+    
+    .header_right {
+        padding: 20px;
+    }
+    
+    .win span {
+        font-size: 21px;
+    }
+    
+    .win {
+        margin-right: 10px;
+    }
+    
+    .re_votes ul li {
+        padding: 0 10px;
+    }
+    
+    .re_votes ul li a {
+        margin-left: 6px;
+    }
+    
+    .voters_wrap img {
+    }
+    .round_sec_left ul#pills-tab li.nav-item button {
+        width: 185px;
+    }
+    section.big_card .cont_parson {
+        height: 100%;
+        max-height: 585px;
+    }
+    .re_votes {
+        min-width: 270px;
+        width: max-content;
+    }
+    .header_left{
+    margin-right: 20px;
+}
+
+
+}
+
+ 
+/* Tablet screen :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .header_left {
+        display: none;
+    }
+    
+    .re_votes {
+        display: none;
+    }
+    .header_nav {
+        margin: auto;
+    }
+    .footer_link.nletters {
+        margin: 0;
+    }
+    
+    .footer_link {
+        margin-bottom: 30px;
+    }
+    
+    .footer_btm {
+        margin-top: 20px;
+    }
+    .contest_time ul li span {
+        font-size: 30px;
+        padding: 10px 11px;
+    }
+    
+    .round_sec__list h1 {
+        font-size: 28px;
+    }
+    
+    .round_sec__list p {
+        font-size: 22px;
+    }
+    
+    .header_right {
+        justify-content: center;
+    }
+    
+    .header-area .row {
+        justify-content: center;
+    }
+    
+    .round_sec_left ul#pills-tab li.nav-item button {
+        width: 146px;
+    }
+    
+    .col-lg-7 {
+    }
+    
+    .round_sec__list ul li p span {
+        margin-left: 10px;
+        font-size: 12px;
+    }
+    
+    .round_sec__list ul li a {
+        font-size: 16px;
+        width: 80px;
+        height: 35px;
+    }
+    
+    .rsr.d_md_none {
+        padding: 20px 25px 0;
+        padding-right: 15px;
+    }
+    
+    .round_sec__list ul {
+        margin-top: 30px;
+    }
+    
+    .round_sec__list ul li {
+        margin-bottom: 16px;
+    }
+    
+    .total_vote {
+        display: flex;
+    }
+    
+    .round_sec__list p {
+        font-size: 20px;
+    }
+    
+    .round_sec__list p span {
+        font-size: 16px;
+    }
+    
+    .d-flex.d_desk_none {
+        display: none !important;
+    }
+    
+    .cont_parson a.ct_name {
+        font-size: 16px;
+        right: 15px;
+    }
+    .cont_parson,.cont_hash{
+    margin-bottom: 15px;
+}
+}
+
+ 
+/* small screen :320px. */
+@media (max-width: 767px) {
+    section.round_section {
+        margin-top: 20px;
+    }
+    
+    section.contestors.mt-5 {
+        margin-top: 5px !important;
+    }
+    .cont_parson {
+        margin-bottom: 10px;
+    }
+    .header_left {
+        display: none;
+    }
+    
+    .re_votes {
+        display: none;
+    }
+    .header_nav {
+        margin: auto;
+    }
+    .footer_link.nletters {
+        margin: 0;
+        margin-bottom: 30px;
+    }
+    
+    .footer_link {
+        margin-bottom: 30px;
+    }
+    .footer_btm {
+        margin-top: 5px;
+        padding-top: 16px;
+        display: block;
+        text-align: center;
+    }
+.header_nav nav ul li a {
+    padding: 7px 10px;
+    font-size: 15px;
+}
+.social_link {
+    margin-bottom: 10px;
+}
+.header_nav nav ul {
+    margin: auto;
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_nav_cont h2 {
+    font-size: 26px;
+}
+
+.header_nav_cont p {
+    line-height: 24px;
+    font-size: 15px;
+}
+.winer_prices a {
+    font-size: 15px;
+    padding: 8px 10px;
+    margin-bottom: 10px;
+}
+.win span {
+    font-size: 16px;
+    margin-right: 5px;
+}
+.win h3 {
+    padding: 3px 0 5px;
+    font-size: 16px;
+    padding-left: 8px;
+    overflow: hidden;
+}
+.winer_prices .win h3 a {
+    padding:9px 5px;
+}
+.winer_prices .win h3 a img {
+    width: 24px;
+    transform: translateY(3px);
+}
+.round_sec_left ul#pills-tab li.nav-item button {
+    font-size: 19px;
+    width: 150px;
+    height: 45px;
+}
+
+.round_sec_left ul#pills-tab li.nav-item button.active {
+    height: 55px;
+}
+
+.contest_time ul li span {
+    font-size: 32px;
+    padding: 7px 11px;
+}
+
+.contest_time ul li p {
+    font-size: 9px;
+}
+
+.cont_parson.cont_parson_lg span {
+    font-size: 32px;
+    padding: 0px 50px;
+}
+
+.cont_parson.cont_parson_lg a.ct_name {
+    font-size: 18px;
+}
+
+.cont_parson_lg .vote_react a {
+    font-size: 22px;
+}
+
+.rsr {
+    box-shadow: 50px -7px 48px rgb(0 0 0 / 11%);
+}
+.footer_link ul li h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer_link ul li a {
+    font-size: 14px;
+}
+
+.footer_link ul li {
+    margin-bottom: 3px;
+}
+
+.footer_link ul li a img {
+    max-width: 150px;
+}
+.social_link ul li a {
+    width: 35px;
+    height: 35px;
+}
+
+.copyright a {
+    font-size: 15px;
+}
+
+footer {
+    padding: 50px 0 0;
+    margin: 30px 0 20px;
+    overflow: hidden;
+}
+.round_sec__list {
+    display: none;
+}
+.winer_prices {
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.win {
+    margin-bottom: 10px;
+}
+ 
+
+.d_md_none{
+    display: none;
+}
+.d_desk_none{
+    display: block;
+    margin-top: 15px;
+}
+.d-flex.d_desk_none .cont_parson a.ct_name {
+    font-size: 11px;
+    right: 10px;
+}
+
+.d-flex.d_desk_none .vote_react a {
+    font-size: 13px;
+}
+.vote_react a img{
+    width: 18px;
+}
+.d-flex.d_desk_none .cont_parson span {
+    font-size: 20px;
+}
+
+.d-flex.d_desk_none .cont_parson a.ct_name span {
+    font-size: 11px;
+}
+
+.d-flex.d_desk_none .vote_react {
+    width: 90%;
+    left: auto;
+    transform: translate(10px, 0px);
+}
+ 
+.d-flex.d_desk_none .cont_parson {
+    overflow: hidden;
+    height: 235px;
+    min-width: 190px;
+}
+.d-flex.d_desk_none .cont_hash span {
+    font-size: 16px;
+    padding: 6px 10px;
+}
+
+.cont_hash a.ct_name {
+    font-size: 17px;
+    right: 12px;
+}
+
+.d-flex.d_desk_none .cont_hash {
+    max-height: 252px;
+    height: 235px;
+    min-width: 197px;
+}
+.cont_parson span#number{
+    font-size: 18px;
+    width: 15px;
+    height: 50px;
+}
+.d-flex.d_desk_none .cont_parson video#video {
+    width: 225px;
+    margin: auto;
+}
+.d-flex.d_desk_none a#hover_ply {
+    width: 60px;
+    height: 60px;
+    padding-left: 5px;
+}
+.d-flex.d_desk_none a#hover_ply img{
+    width: 32px;
+}
+.header_nav ul li{
+    border: none;
+}
+.col-lg-5 {
+    width: 0%;
+}
+
+.col-lg-7 {
+    width: 100%;
+}
+
+.contest_time {
+    padding-top: 50px;
+}
+
+.contest_time ul:after {
+    top: -39px;
+    font-size: 14px;
+}
+.col-lg-4.col-md-6.col-sm-6 {
+    width: 49%;
+}
+
+.d-flex.d_desk_none {
+    justify-content: space-between;
+}
+
+.col-lg-4.col-md-6 {
+    width: 100%;
+}
+
+.d-flex {
+    justify-content: space-between;
+}
+
+.col-lg-6 {
+    width: 100%;
+}
+section.contestors.mt-5 span#number {
+    font-size: 30px;
+    width: 44px;
+    height: 68px;
+    left: -22px;
+    top: -17px;
+}
+section.lst_card .vote_react {
+    margin-bottom: 10px;
+}
+
+section.lst_card .vote_react a#l38 {
+    font-size: 19px;
+    text-align: center;
+}
+
+section.lst_card .vote_react button {
+    font-size: 22px;
+    padding: 10px 25px;
+}
+section.contestors.mt-5 .vote_react {
+    margin-bottom: 10px;
+}
+.cont_hash {
+    height: 92%;
+}
+.header_right { 
+    padding: 15px; 
+}
+section.big_card span {
+    font-size: 28px;
+    padding: 8px 15px;
+}
+section.big_card a.ct_name {
+    font-size: 20px;
+}
+section.big_card .vote_react a {
+    font-size: 24px; 
+    margin-bottom: 10px;
+}
+section.big_card .vote_react a img {
+    width: 30px;
+}
+
+
+
+
+
+
+
+}
+ 
+/* Large Mobile screen :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width: 460px;}
+ 
+}
+
+@media(max-width: 440px) { 
+    .contest_time ul li span {
+        font-size: 21px;
+        padding: 8px 11px;
+        margin-right: 2px;
+    }
+    
+    .contest_time ul li {
+        margin-right: -3px;
+    }
+    
+    .header_nav ul li {
+        border: none;
+    }
+    .round_sec_left ul#pills-tab li.nav-item button{
+    width: 129px;
+    font-size: 17px;
+    height: 40px;
+}
+.round_sec_left ul#pills-tab li.nav-item button.active {
+    height: 47px;
+}
+
+.cont_hash .vote_react button.big2{
+    font-size: 21px;
+}
+a#hover_ply{
+    font-size: 21px;
+    width: 60px;
+    height: 60px;
+    padding-left: 5px;
+}
+.cont_hash span{
+    font-size: 22px;
+}
+.d_desk_none{
+    flex-wrap: wrap;
+}
+.d-flex.d_desk_none .cont_parson {
+    margin-right: 0 !important;
+}
+section.d-flex.d_desk_none .d-flex {
+    flex-wrap: wrap;
+}
+
+.ful{flex: 0 0 auto;
+    width: 100%;}
+
+    .header_right{
+    justify-content: center;
+}
+.header_nav nav ul {
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.col-lg-4.col-md-6.col-sm-6.ful {
+    width: 46%;
+}
+
+.col-lg-3.col-md-6.col-sm-6 {
+    width: 50%;
+}
+
+.newsletter input {
+    height: 46px;
+}
+}
+
+@media(max-width: 370px) {
+    .contest_time ul li span{
+    font-size: 16px;
+    padding: 8px 10px;
+}
+.round_sec_left ul#pills-tab li.nav-item button{
+    width: 99px  !important;
+    font-size: 16px;
+    height: 40px;
+}
+.round_sec_left ul#pills-tab li.nav-item button.active {
+    height: 45px;
+}
+.contest_time ul{
+    padding-left: 0px;
+    margin-left: 10px;
+}
+.contest_time small{
+    margin-left: 10px;
+}
+.cont_parson.cont_parson_lg span{
+    font-size: 28px;
+    padding: 0px 32px;
+}
+.cont_parson.cont_parson_lg a.ct_name{
+    font-size: 15px;
+}
+.cont_parson span{
+    font-size: 20px;
+}
+.cont_parson a.ct_name{
+    font-size: 16px;
+}
+.cont_hash a.ct_name{
+    font-size: 18px;
+} 
+
+}
+
+@media(max-width: 400px) {
+    
+.col-lg-4.col-md-6.col-sm-6 {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.col-lg-4.col-md-6.col-sm-6.ful {
+    width: 100%;
+}
+section.d-flex.d_desk_none .container {
+    padding: 0 !important;
+    width: max-content;
+    margin: auto;
+    text-align: center;
+    max-width: unset;
+}
+section.d-flex.d_desk_none {
+    margin-left: 15px;
+}
+.round_sec_left ul#pills-tab li.nav-item button {
+    width: 118px;
+}
+section.contestors.mt-5 span#number {
+    width: 50px;
+    height: 73px;
+    top: -25px;
+}
+.winer_prices {
+    justify-content: space-between;
+}
+
+}
+
